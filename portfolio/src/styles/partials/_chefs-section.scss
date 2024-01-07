@@ -1,0 +1,55 @@
+.chef-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1em;
+    margin-top: 2em;
+  }
+  .section.chef {
+    display: block;
+  }
+  
+  .chef-card {
+    display: flex;
+    height: 120px;
+    background-color: var(--background-color);
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: var(--background-light);
+    img {
+      height: 100%;
+      width: 120px;
+      border-radius: 5px;
+      box-shadow: 0 3px 6px var(--shadow-color);
+    }
+    .chef-card-info {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 0.8em 0.8em;
+      /* box-shadow: 0 3px 6px var(--shadow-color); */
+      .chef-card-name {
+        font-size: 1.2em;
+        color: var(--text-color);
+      }
+      .chef-recipes {
+        font-size: 1em;
+        color: var(--text-light);
+      }
+      .chef-icons {
+        font-size: 1.2em;
+        svg {
+          margin-right: 0.5em;
+          &:nth-child(1) {
+            color: #0063f7;
+          }
+          &:nth-child(2) {
+            color: #ff0056;
+          }
+          &:nth-child(3) {
+            color: #13b4ff;
+          }
+        }
+      }
+    }
+  }

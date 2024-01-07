@@ -1,0 +1,48 @@
+.themes {
+  box-shadow: 0 5px 10px var(--shadow-color);
+  padding: 1em;
+  border-radius: 10px;
+  border-left: 0.5em solid var(--primary-color);
+  background-color: var(--background-light);
+  margin-top: 1.5em;
+  display: flex;
+  gap: 1em;
+  .option {
+    height: 3em;
+    width: 3em;
+    box-shadow: 0 3px 6px var(--shadow-color);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &.light {
+      background-color: #fff;
+    }
+    &.dark {
+      background-color: #1b1b1b;
+    }
+    .check {
+      height: 1.5em;
+      width: 1.5em;
+      border-radius: 50%;
+      background-color: var(--primary-color);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 2px 5px var(--shadow-color);
+      svg {
+        height: 1em;
+        width: 1em;
+      }
+    }
+  }
+  .btn span {
+    margin-left: 0.5em;
+    display: inline-block;
+  }
+}
+
+.d-block h2 {
+  font-size: 2em;
+  color: var(--text-color);
+}
