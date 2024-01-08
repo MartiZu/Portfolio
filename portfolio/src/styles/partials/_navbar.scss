@@ -59,7 +59,7 @@
       border-radius: 5px;
       height: 5.5px;
       width: 100%;
-      background-color: var(--text-color);
+      background-color: var(--primary-color);
       position: absolute;
       transition: transform calc(var(--animation-speed) * 0.5s) ease-in-out;
       &:nth-child(1) {
@@ -102,7 +102,7 @@
   width: 16rem;
   z-index: 999;
   background-color: var(--background-color);
-  box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.2), 3px 0 5px var(--shadow-color);
+  box-shadow: 0 0 0 10000px rgba(0, 0, 0, 0.2), 3px 0 5px var(--shadow-color);
   animation: calc(var(--animation-speed) * 0.5s) ease-in-out slideInLeft;
   .icon-size{
     width: 30%;

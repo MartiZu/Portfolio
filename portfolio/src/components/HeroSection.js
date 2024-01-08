@@ -28,7 +28,8 @@ export default function HeroSection() {
         </p>{" "}
         <p className="info">
         I live in London, I am a former nurse and psychotherapist who discovered a passion for coding and decided to translate her problem-solving skills into tech as a developer.
-        This page is for me to display some of the projects I have worked on and that I am proud of.
+        </p>
+        <p className="info">This page is for me to display some of the projects I have worked on and tell you a bit more about myself.
         </p>
         <Link to="/about"><button className="btn">About me</button></Link>
       </div>

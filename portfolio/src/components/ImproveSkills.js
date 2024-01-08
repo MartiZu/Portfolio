@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+
+
 export default function TechStack() {
   const list = [
     "JavaScript",
@@ -21,7 +24,7 @@ export default function TechStack() {
         <img className="image" src="/img/icons/rocket.png" alt="rocket" />
       </div>
       <div className="col text">
-        <h1 className="title">This is what I've learnt so far</h1>
+        <h1 className="title">My TechStack</h1>
         <div className="skills-list">
           {list.map((item, index) => (
             <p className="skill-item" key={index}>
@@ -29,7 +32,7 @@ export default function TechStack() {
             </p>
           ))}
         </div>
-        <button className="btn">Projects</button>
+        <Link to="/projects"><button className="btn">Projects</button></Link>
         {/* <p className="info">
           This is where I share my experiences about coding and tech. You can
           see my projects, but also find out more about me and what drove me to

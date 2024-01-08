@@ -3,7 +3,7 @@
   --background-light: #fff;
   --background-dark: #5e5e5e;
   --shadow-color: rgba(0, 0, 0, 0.2);
-  --primary-color: rgb(103, 38, 122);
+  --primary-color: rgb(59, 170, 204);
   --text-color: #0a0a0a;
   --text-light: #575757;
   --text-dark: #000;
@@ -98,6 +98,15 @@ img {
   padding-inline: 25vw;
 }
 
+.navbar {
+  .nav-links {
+    display: none;
+  }
+  .sidebar-btn {
+    display: block;
+  }
+}
+
 @import "partials/_settings.scss";
 @import "partials/_search-section.scss";
 @import "partials/_recipes-section.scss";
@@ -108,19 +117,19 @@ img {
 @import "partials/_hero-section.scss";
 @import "partials/_animations.scss";
 
+
+
 @media screen and (max-width: 1280px) {
   .container {
     padding-inline: 18vw;
   }
+
 }
 
 @media screen and (max-width: 1050px) {
   .container {
     padding-inline: 12vw;
   }
-}
-
-@media screen and (max-width: 768px) {
   .section {
     .col {
       width: 100%;
@@ -129,16 +138,11 @@ img {
       margin-bottom: 2em;
     }
   }
+}
+
+@media screen and (max-width: 768px) {
   .container {
     padding-inline: 6vw;
-  }
-  .navbar {
-    .nav-links {
-      display: none;
-    }
-    .sidebar-btn {
-      display: block;
-    }
   }
   .skill-item {
     display: inline-block;
