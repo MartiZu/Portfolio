@@ -1,5 +1,6 @@
 import React from "react";
 import Fragment from "./Fragment";
+import { Link } from "react-router-dom";
 
 export default function HeroSection() {
   const images = [
@@ -29,7 +30,7 @@ export default function HeroSection() {
         I live in London, I am a former nurse and psychotherapist who discovered a passion for coding and decided to translate her problem-solving skills into tech as a developer.
         This page is for me to display some of the projects I have worked on and that I am proud of.
         </p>
-        <button className="btn">About me</button>
+        <Link to="/about"><button className="btn">About me</button></Link>
       </div>
             {/* <div className="col text">
         <h1 className="title">Welcome to my portfolio page</h1>

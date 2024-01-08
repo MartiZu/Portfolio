@@ -1,14 +1,14 @@
-.recipes-container {
+.projects-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   margin-top: 2em;
 }
-.recipe-card {
+.project-card {
   border-radius: 10px;
   box-shadow: 0 5px 10px var(--shadow-color);
   overflow: hidden;
-  .recipe-card-info {
+  .project-card-info {
     padding: 15px;
     background-color: var(--background-light);
   }
@@ -24,7 +24,7 @@
     margin-top: -50px;
     z-index: 2;
   }
-  .recipe-title {
+  .project-title {
     font-size: 1.25em;
     font-weight: 700;
     margin-top: 0.7em;

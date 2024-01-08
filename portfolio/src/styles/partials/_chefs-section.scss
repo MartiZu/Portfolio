@@ -1,14 +1,14 @@
-.chef-container {
+.project-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1em;
     margin-top: 2em;
   }
-  .section.chef {
+  .section.project {
     display: block;
   }
   
-  .chef-card {
+  .project-card {
     display: flex;
     height: 120px;
     background-color: var(--background-color);
@@ -21,22 +21,22 @@
       border-radius: 5px;
       box-shadow: 0 3px 6px var(--shadow-color);
     }
-    .chef-card-info {
+    .project-card-info {
       height: 100%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       padding: 0.8em 0.8em;
       /* box-shadow: 0 3px 6px var(--shadow-color); */
-      .chef-card-name {
+      .project-card-name {
         font-size: 1.2em;
         color: var(--text-color);
       }
-      .chef-recipes {
+      .project-recipes {
         font-size: 1em;
         color: var(--text-light);
       }
-      .chef-icons {
+      .project-icons {
         font-size: 1.2em;
         svg {
           margin-right: 0.5em;

@@ -7,10 +7,10 @@ export default function Nav() {
   const [showSideBar, setShowSideBar] = useState(false);
 
   const links = [
-    { name: "Home", path: "/", icon: "/img/icons/home.jpg" },
-    { name: "Projects", path: "/projects", icon: "/img/icons/list.jpg" },
-    { name: "About me", path: "/about", icon: "/img/icons/about.jpg" },
-    { name: "Settings", path: "/settings", icon: "/img/icons/cog.jpg" },
+    { name: "Home", path: "/", icon: "/img/icons/home.png" },
+    { name: "Projects", path: "/projects", icon: "/img/icons/list.png" },
+    { name: "About me", path: "/about", icon: "/img/icons/about.png" },
+    { name: "Settings", path: "/settings", icon: "/img/icons/cog.png" },
   ];
 
   function closeSidebar() {

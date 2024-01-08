@@ -1,23 +1,23 @@
 import PreviousSearches from "../components/PreviousSearches";
-import RecipeCard from "../components/RecipeCard";
-const recipes = [
+import ProjectsCard from "../components/ProjectsCard";
+const projects = [
   {
-    title: "Pizza Margherita",
+    title: "Study Buddy",
     image: "/img/gallery/pizza-margherita.jpg",
-    author: "/img/chefs/martina.jpg",
+    author: "Team project",
     description: "The softes pizza dough you'll ever try.",
   },
   {
-    title: "Carbonara",
+    title: "LendLogic",
     image: "/img/gallery/carbonara.jpg",
-    author: "/img/chefs/borghese.jpg",
+    author: "Team project",
     description:
       "Carbonara with real guanciale, pecorino and lots of black pepper.",
   },
   {
-    title: "Polpette",
+    title: "LendLogic Extension",
     image: "/img/gallery/polpette.jpg",
-    author: "/img/chefs/barbieri.jpg",
+    author: "Team project & myself",
     description: "Chicken and beef meatballs, soft and deliciously tasty.",
   },
 ].sort(() => Math.random() - 0.5); // randomize the order of the array);
@@ -26,9 +26,9 @@ export default function Projects() {
   return (
     <div>
       <PreviousSearches />
-      <div className="recipes-container">
-        {recipes.map((recipe, index) => (
-          <RecipeCard key={index} recipe={recipe} />
+      <div className="projects-container">
+        {projects.map((project, index) => (
+          <ProjectsCard key={index} project={project} />
         ))}
       </div>
     </div>

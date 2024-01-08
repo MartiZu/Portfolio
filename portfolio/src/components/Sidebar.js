@@ -1,7 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 export default function Sidebar({ links, close }) {
   const location = useLocation();
   return (
@@ -17,7 +15,7 @@ export default function Sidebar({ links, close }) {
             to={link.path}
             key={link.name}
           >
-            <FontAwesomeIcon icon={link.icon} />
+            <img src={link.icon} alt="icon" className="icon-size"/>
             {link.name}
           </Link>
         );
