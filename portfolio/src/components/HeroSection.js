@@ -27,13 +27,19 @@ export default function HeroSection() {
           </a>
         </p>{" "}
         <p className="info">
-        I live in London, I am a former nurse and psychotherapist who discovered a passion for coding and decided to translate her problem-solving skills into tech as a developer.
+          I live in London, I am a former nurse and psychotherapist who
+          discovered a passion for coding and decided to translate her
+          problem-solving skills into tech as a developer.
         </p>
-        <p className="info">This page is for me to display some of the projects I have worked on and tell you a bit more about myself.
+        <p className="info">
+          This page is for me to display some of the projects I have worked on
+          and tell you a bit more about myself.
         </p>
-        <Link to="/about"><button className="btn">About me</button></Link>
+        <Link to="/about">
+          <button className="btn">About me</button>
+        </Link>
       </div>
-            {/* <div className="col text">
+      {/* <div className="col text">
         <h1 className="title">Welcome to my portfolio page</h1>
         <p className="info">
           On the 4th of September 23 I started my tech joureny with the{" "}

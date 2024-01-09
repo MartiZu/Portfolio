@@ -4,11 +4,11 @@
   gap: 2rem;
   margin-top: 2em;
 }
-.project-card {
+.projects-card {
   border-radius: 10px;
   box-shadow: 0 5px 10px var(--shadow-color);
   overflow: hidden;
-  .project-card-info {
+  .projects-card-info {
     padding: 15px;
     background-color: var(--background-light);
   }
@@ -21,10 +21,9 @@
     border-radius: 50%;
     border: 3px solid #fff;
     box-shadow: 0 5px 10px var(--shadow-color);
-    margin-top: -50px;
-    z-index: 2;
+    margin-top: 0;
   }
-  .project-title {
+  .projects-title {
     font-size: 1.25em;
     font-weight: 700;
     margin-top: 0.7em;
