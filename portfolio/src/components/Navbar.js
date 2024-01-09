@@ -10,6 +10,16 @@ export default function Nav() {
     { name: "Home", path: "/", icon: "/img/icons/home.png" },
     { name: "Projects", path: "/projects", icon: "/img/icons/list.png" },
     { name: "About me", path: "/about", icon: "/img/icons/about.png" },
+    {
+      name: "LinkedIn",
+      path: "https://www.linkedin.com/in/martina-zurli-08b5b8286/",
+      icon: "/img/icons/linkedin.png",
+    },
+    {
+      name: "Twitter",
+      path: "https://twitter.com/martina_zurli",
+      icon: "/img/icons/twitter.png",
+    },
     { name: "Settings", path: "/settings", icon: "/img/icons/cog.png" },
   ];
 

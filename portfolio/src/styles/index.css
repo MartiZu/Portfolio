@@ -223,9 +223,20 @@ img {
     opacity: 1;
   }
 }
-
 .rotate {
   animation: rotate 5s infinite linear;
+}
+
+@keyframes bounce{
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+  40% {transform: translateY(-30px);} 
+  60% {transform: translateY(-15px);} 
+}
+
+
+.bounce{
+  animation-name: bounce;
+  animation-timing-function: ease;
 }
 
 .image-mid {
@@ -241,7 +252,8 @@ img {
 }
 
 .image-intro {
-  width: 70% !important;
+  width: 80% !important;
+  margin-left: 2em;
 }
 
 .animate--infinite {

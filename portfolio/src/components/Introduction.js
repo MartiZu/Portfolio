@@ -14,7 +14,7 @@ export default function Introduction() {
 
       </div>
       <div className="col img">
-        <img className="image-intro rotate" src="/img/icons/fly.png" alt="graph" />
+        <img className="image-intro bounce" src="/img/icons/letgo.png" alt="letsgo" />
       </div>
     </div>
   );

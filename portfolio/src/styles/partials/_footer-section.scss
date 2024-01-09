@@ -3,19 +3,11 @@
   box-shadow: 0 5px 10px var(--shadow-color);
   color: #fff;
   padding: 2em;
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  grid-gap: 2.5em;
-  .footer-section {
-    p {
-      opacity: 0.9;
-      margin-bottom: 0.5em;
-    }
-    p.title {
-      opacity: 1;
-      font-size: 1em;
-      font-weight: 700;
-      margin-bottom: 1em;
-    }
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  img{
+    width: 20%
   }
 }
