@@ -10,7 +10,7 @@ export default function Quotes() {
         you will be amazing at it.
         <span className="right">"</span>
       </p>
-      <p className="quote-author">- Adam Saint</p>
+      <p className="quote-author">- Kathy Saint</p>
     </div>
   );
 }
