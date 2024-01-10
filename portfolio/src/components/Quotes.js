@@ -11,6 +11,12 @@ export default function Quotes() {
         <span className="right">"</span>
       </p>
       <p className="quote-author">- Kathy Saint</p>
+      <p className="quote-text">
+        <span className="left">"</span>
+        Martina you are a rocket! I am so glad I met you. So nice to work together!
+        <span className="right">"</span>
+      </p>
+      <p className="quote-author">- Joe O'Donovan</p>
     </div>
   );
 }
