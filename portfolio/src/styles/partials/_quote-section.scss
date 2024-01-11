@@ -1,6 +1,13 @@
 .section.quote {
-  display: block;
+  display: flex;
+  flex-direction: row;
   margin-top: 5em;
+  .left-section {
+    width: 50%;
+  }
+  .col-side {
+    margin-left: 5em;
+  }
   .quote-text {
     margin-top: 2em;
     font-size: 1.2em;

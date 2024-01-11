@@ -3,7 +3,7 @@
   --background-light: #fff;
   --background-dark: #5e5e5e;
   --shadow-color: rgba(0, 0, 0, 0.2);
-  --primary-color: rgb(59, 170, 204);
+  --primary-color: #0b7fa2;
   --text-color: #0a0a0a;
   --text-light: #575757;
   --text-dark: #000;
@@ -227,16 +227,21 @@ img {
   animation: rotate 5s infinite linear;
 }
 
-@keyframes bounce{
-  0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
-  40% {transform: translateY(-30px);} 
-  60% {transform: translateY(-15px);} 
+@keyframes bounce {
+  from {
+    transform: translateY(-20px);
+  }
+  to {
+    transform: translateY(20px);
+  }
 }
 
-
-.bounce{
+.bounce {
   animation-name: bounce;
-  animation-timing-function: ease;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  /* animation-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035); */
+  animation-iteration-count: infinite;
 }
 
 .image-mid {
@@ -248,7 +253,17 @@ img {
   animation-delay: 0.1s;
   animation-iteration-count: 1;
   animation-direction: normal;
-  animation-fill-mode: ;
+}
+
+.image-last {
+  width: 80%;
+  margin-left: 2em;
+  animation-name: slideInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 0.1s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
 }
 
 .image-intro {

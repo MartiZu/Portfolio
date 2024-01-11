@@ -4,7 +4,7 @@ import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import { useState, useEffect } from "react";
 
 export default function Settings() {
-  const colors = ["#0099CC", "#9966CC", "#99CC99", "#f7b32b", "#f06449"];
+  const colors = ["#0b7fa2", "#8559b1", "#3d853d", "#a93748", "#a5319b"];
   const fonts = [
     { title: "small", size: ".75rem" },
     { title: "medium", size: "1rem" },

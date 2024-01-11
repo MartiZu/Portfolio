@@ -119,7 +119,7 @@
     font-size: 1.1em;
     color: var(--text-color);
     transform: translateX(-100%);
-    animation: calc(var(--animation-speed) * 0.5s) ease-in-out slideInLeft
+    animation: calc(var(--animation-speed) * 0.3s) ease-in-out slideInLeft
       forwards;
     &:nth-child(1) {
       animation-delay: calc(var(--animation-speed) * 0.2s);

@@ -1,22 +1,35 @@
 export default function Quotes() {
   return (
     <div className="section quote">
-      <h1 className="title">What people say about me</h1>
-      <p className="quote-text">
-        <span className="left">"</span>
-        Thank you so much for all the encouragment and the help you have given
-        me. Your energy and enthusiasm are contagious and I am so grateful that
-        we worked together. I am so excited to see what you do next and I know
-        you will be amazing at it.
-        <span className="right">"</span>
-      </p>
-      <p className="quote-author">- Kathy Saint</p>
-      <p className="quote-text">
-        <span className="left">"</span>
-        Martina you are a rocket! I am so glad I met you. So nice to work together!
-        <span className="right">"</span>
-      </p>
-      <p className="quote-author">- Joe O'Donovan</p>
+      <div className="left-section">
+        <div className="text">
+          <h1 className="title">Get in contact with me</h1>
+          <p className="info">
+            If you want to know more about me, my projects or just want to say
+            hi, feel free to connect with me on social media or send me an
+            email.
+          </p>
+        </div>
+        <div className="media-btn">
+          <a
+            className="media"
+            href="https://twitter.com/martina_zurli"
+            target="_blank"
+          >
+            <button className="btn">Twitter</button>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/martina-zurli-08b5b8286/"
+            target="_blank"
+          >
+            <button className="btn">LinkedIn</button>
+          </a>
+          <a href="https://github.com/MartiZu" target="_blank">
+            <button className="btn">GitHub</button>
+          </a>
+        </div>
+      </div>
+      <div className="col-side">Contact me form coming...</div>
     </div>
   );
 }

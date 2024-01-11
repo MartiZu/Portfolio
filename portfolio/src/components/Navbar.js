@@ -10,7 +10,7 @@ export default function Nav() {
     { name: "Home", path: "/", icon: "/img/icons/home.png" },
     { name: "Projects", path: "/projects", icon: "/img/icons/list.png" },
     { name: "About me", path: "/about", icon: "/img/icons/about.png" },
-    { name: "Settings", path: "/settings", icon: "/img/icons/cog.png" },
+    // { name: "Settings", path: "/settings", icon: "/img/icons/cog.png" },
   ];
 
   function closeSidebar() {
