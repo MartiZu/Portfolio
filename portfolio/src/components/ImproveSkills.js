@@ -22,7 +22,8 @@ export default function TechStack() {
     <div className="section improve-skills">
       <div className="col img">
         {/* <img className="image" src="/img/icons/rocket.png" alt="rocket" /> */}
-        <img className="image-intro rotate" src="/img/icons/fly.png" alt="graph" />
+        {/* <img className="image-intro rotate" src="/img/icons/fly.png" alt="graph" /> */}
+        <img className="image-skill" src="/img/icons/4qwu.gif" alt="roket" />
       </div>
       <div className="col text">
         <h1 className="title">My TechStack</h1>
