@@ -43,6 +43,21 @@
     display: inline-block;
     font-weight: 700;
     justify-content: flex-end;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .repo{
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: .5em;
+    color: var(--primary-color);
+    display: inline-block;
+    font-weight: 700;
+    justify-content: flex-end;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 

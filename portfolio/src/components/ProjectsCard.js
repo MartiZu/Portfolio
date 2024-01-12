@@ -8,7 +8,7 @@ export default function ProjectsCard({ project }) {
         <a className="link" target="_blank" href={project.demo}>
           Get on the app
         </a>
-        <a className="link" target="_blank" href={project.github}>
+        <a className="repo" target="_blank" href={project.github}>
           See the repo
         </a>
       </div>

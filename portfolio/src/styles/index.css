@@ -246,7 +246,7 @@ img {
 }
 
 .image-mid {
-  width: 80%;
+  width: 100%;
   margin-right: 2em;
   animation-name: slideInLeft;
   animation-duration: 1s;
