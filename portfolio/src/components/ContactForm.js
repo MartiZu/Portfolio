@@ -1,34 +1,41 @@
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
-const service_id = process.env.YOUR_SERVICE_ID
-const template_id = process.env.YOUR_TEMPLATE_ID
-const public_key = process.env.YOUR_PUBLIC_KEY
+import React, { useRef, useEffect, useState } from "react";
+import emailjs from "@emailjs/browser";
+const serviceId = "service_4edwhnl";
+const templateId = "template_jv1u5rn";
+const publicKey = "dg5CYoSjosK5PjMBp5";
 
 export default function ContactForm() {
+  useEffect(() => emailjs.init(publicKey), []);
   const form = useRef();
+  //   const emailRef = useRef<HTMLInputElement>();
+  // const nameRef = useRef<HTMLInputElement>();
+  const [loading, setLoading] = useState(false);
 
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(service_id, template_id, form.current, public_key)
-      .then((result) => {
-          console.log(result.text);
-          console.log("Message sent");
-          e.target.reset();
-      }, (error) => {
-          console.log(error.text);
-      });
+    try {
+      setLoading(true);
+      console.log("Sending email...");
+      await emailjs.sendForm(serviceId, templateId, form.current);
+      console.log("Email sent successfully.");
+      alert("email successfully sent check inbox");
+    } catch (error) {
+      console.error("Error sending email:", error);
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} className='form'>
-      <label>Name</label>
+    <form ref={form} onSubmit={sendEmail} className="form">
+      <label htmlFor="user_name">Name</label>
       <input type="text" name="user_name" />
-      <label>Email</label>
+      <label htmlFor="user_email">Email</label>
       <input type="email" name="user_email" />
       <label>Message</label>
       <textarea name="message" />
-      <input className="btn" type="submit" value="Send" />
+      <input className="btn" type="submit" value="Send" disabled={loading} />
     </form>
   );
-};
+}

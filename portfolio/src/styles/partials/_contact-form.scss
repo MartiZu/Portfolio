@@ -1,14 +1,17 @@
 .form {
+  margin-left: 1em;
+  margin-top: 2em;
   display: flex;
   flex-direction: column;
   padding: 1em;
   border: 2px solid var(--primary-color);
   border-radius: 10px;
-  width: 320px;
   textarea {
     height: 60px;
   }
-  textarea, input, label{
+  textarea,
+  input,
+  label {
     margin: 0.2em 0;
   }
 }

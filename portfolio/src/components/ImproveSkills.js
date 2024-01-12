@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 
-
 export default function TechStack() {
   const list = [
     "JavaScript",
@@ -34,7 +33,9 @@ export default function TechStack() {
             </p>
           ))}
         </div>
-        <Link to="/projects"><button className="btn">Projects</button></Link>
+        <Link to="/projects">
+          <button className="btn">Projects</button>
+        </Link>
         {/* <p className="info">
           This is where I share my experiences about coding and tech. You can
           see my projects, but also find out more about me and what drove me to
@@ -42,7 +43,6 @@ export default function TechStack() {
         </p>
         <button className="btn">Go to projects</button> */}
       </div>
-      <div className="col text"></div>
     </div>
   );
 }
