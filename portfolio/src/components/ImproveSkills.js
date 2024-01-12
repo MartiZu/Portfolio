@@ -25,7 +25,7 @@ export default function TechStack() {
         <img className="image-skill" src="/img/icons/4qwu.gif" alt="roket" />
       </div>
       <div className="col text">
-        <h1 className="title">My TechStack</h1>
+        <h1 className="title">My Tech Stack</h1>
         <div className="skills-list">
           {list.map((item, index) => (
             <p className="skill-item" key={index}>
