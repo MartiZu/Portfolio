@@ -117,6 +117,7 @@ img {
   }
 }
 
+@import "partials/_contact-form.scss";
 @import "partials/_navbar.scss";
 @import "partials/_settings.scss";
 @import "partials/_search-section.scss";

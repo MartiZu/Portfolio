@@ -1,3 +1,5 @@
+import ContactForm from "./ContactForm";
+
 export default function Quotes() {
   return (
     <div className="section quote">
@@ -29,7 +31,9 @@ export default function Quotes() {
           </a>
         </div>
       </div>
-      <div className="col-side">Contact me form coming...</div>
+      <div className="col-side">
+        <ContactForm />
+      </div>
     </div>
   );
 }
