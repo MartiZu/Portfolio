@@ -52,6 +52,10 @@ export default function Projects() {
           <ProjectsCard key={index} project={project} />
         ))}
       </div>
+      <div className="loading-container">
+        <p>More projects soon..</p>
+        <img className="loading" src="/img/icons/loading.gif" alt="loading" />
+      </div>
     </div>
   );
 }
