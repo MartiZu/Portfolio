@@ -13,7 +13,11 @@
       color: #fff;
       border-radius: 5px;
       box-shadow: 0 3px 6px var(--shadow-color);
-      animation: calc(var(--animation-speed) * 0.5s) slideInRight;
+      animation: calc(var(--animation-speed) * 1.2s) slideInRight;
+      &:hover {
+        box-shadow: 0 1px 3px var(--shadow-color);
+        transform: translateY(-3px);
+      }
     }
   }
   .search-box {
