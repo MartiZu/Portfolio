@@ -5,16 +5,12 @@ export default function Quotes() {
     <div className="section quote">
       <div className="col text">
         <h1 className="title">Get in contact with me</h1>
+        
         <p className="info">
           If you want to know more about me, my projects or just want to say hi,
           feel free to connect with me on social media or send me an email.
         </p>
-      </div>
-
-      <div className="col">
-        <ContactForm />
-      </div>
-      <div className="media-btn">
+        <div className="media-btn">
         <a
           className="media"
           href="https://twitter.com/martina_zurli"
@@ -32,6 +28,12 @@ export default function Quotes() {
           <button className="btn">GitHub</button>
         </a>
       </div>
+      </div>
+
+      <div className="col">
+        <ContactForm />
+      </div>
+
     </div>
   );
 }
