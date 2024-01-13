@@ -35,7 +35,7 @@ export default function Lastsection() {
       <div className="col text">
         <h1 className="title">Why Tech?</h1>
         <p className="info">
-          My partner is a software developer and he introduced me to the tech
+          My partner is a software engineer and he introduced me to the tech
           world. Seeing my interested in coding he encouraged me to do a
           bootcamp to learn the fundamentals and start adapting my logic and
           problem solving skills to a new and different environment.
