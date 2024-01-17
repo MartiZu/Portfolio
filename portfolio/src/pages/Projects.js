@@ -5,6 +5,7 @@ const projects = [
     title: "Study Buddy",
     image: "/img/icons/project.png",
     author: "Team project",
+    stack: "Node.js, Express, PostgreSQL, HTML, CSS, JavaScript",
     description:
       "A user-friendly study platform with a successful frontend and backend integration.",
     demo: "https://study-buddy-app-zeta.vercel.app/index.html",
@@ -15,6 +16,7 @@ const projects = [
     title: "LendLogic",
     image: "/img/icons/project.png",
     author: "Team project",
+    stack: "Next.js, JSON Server, Tailwind, CSS, JavaScript, Jest, Cypress",
     description:
       "Worked with stakeholders who work for a large financial institution, building a user focused mortgage application.",
     demo: "https://land-logic-app-frontend.vercel.app/",
@@ -24,7 +26,8 @@ const projects = [
   {
     title: "LendLogic Extension",
     image: "/img/icons/project.png",
-    author: "Team project & myself",
+    author: "Personal extension of team project",
+    stack: "Next.js, JSON Server, Tailwind, CSS, JavaScript, Jest, Cypress",
     description:
       "I took what we created, initiated a separate project and implement additional features.",
     demo: "https://lend-logic-app-extension.vercel.app/",
@@ -35,6 +38,7 @@ const projects = [
     title: "HelpDev",
     image: "/img/icons/project.png",
     author: "Team project",
+    stack: "Next.js, JSON Server, Tailwind, CSS, JavaScript",
     description:
       "Help-Dev Ticketing System designed to facilitate the submission and resolution of help tickets.",
     demo: "https://help-dev-app.vercel.app/",
