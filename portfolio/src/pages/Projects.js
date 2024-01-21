@@ -45,6 +45,17 @@ const projects = [
     github: "https://github.com/MartiZu/Help-dev-app",
     video: "",
   },
+  {
+    title: "The SleighLine",
+    image: "/img/icons/project.png",
+    author: "Hackathon project",
+    stack: "Next.js, JSON Server, Tailwind, CSS, JavaScript",
+    description:
+      "Supporting Santa making his journey around the world, by allowing him to check the cheapest day to fly to each destination.",
+    demo: "https://the-sleigh-line-9z3n4rjdt-martizus-projects.vercel.app/",
+    github: "https://github.com/MartiZu/Santa-s_holiday",
+    video: "",
+  },
 ].sort(() => Math.random() - 0.5); // randomize the order of the array);
 
 export default function Projects() {
