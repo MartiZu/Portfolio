@@ -22,7 +22,7 @@
       opacity: 0;
       animation: calc(var(--animation-speed) * 0.5s) slideInRight forwards;
       padding: 0.5em;
-      &:hover{
+      &:hover {
         background-color: var(--primary-color);
         color: #fff;
       }
@@ -64,6 +64,30 @@
       }
       &:nth-child(13) {
         animation-delay: 1.7s;
+      }
+      &:nth-child(14) {
+        animation-delay: 1.8s;
+      }
+      &:nth-child(15) {
+        animation-delay: 1.9s;
+      }
+      &:nth-child(16) {
+        animation-delay: 2s;
+      }
+      &:nth-child(17) {
+        animation-delay: 2.1s;
+      }
+      &:nth-child(18) {
+        animation-delay: 2.2s;
+      }
+      &:nth-child(19) {
+        animation-delay: 2.3s;
+      }
+      &:nth-child(20) {
+        animation-delay: 2.4s;
+      }
+      &:nth-child(21) {
+        animation-delay: 2.5s;
       }
     }
     .btn {
