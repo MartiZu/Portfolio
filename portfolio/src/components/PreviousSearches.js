@@ -2,17 +2,22 @@ export default function PreviousSearches() {
   const skills = [
     "JavaScript",
     "React",
+    "Next.js",
     "HTML",
     "CSS",
-    "Next.js",
-    "Node.js",
+    "SCSS",
     "Tailwind CSS",
+    "Node.js",
     "Express",
+    "Java",
     "PostgreSQL",
     "Jest",
+    "Vitest",
     "Cypress",
+    "Playwright",
     "Deployment",
-    "Testing",
+    "Git",
+    "TDD",
   ];
   return (
     <div>
