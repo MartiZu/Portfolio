@@ -45,7 +45,6 @@ export default function Lastsection() {
           strong. It didn't take long for me to realise that this is what I want
           to do with my life.
         </p>
-        <p className="info">Follow me or get in touch!</p>
       </div>
       <div className="col gallery">
         {images.map((image, index) => (
