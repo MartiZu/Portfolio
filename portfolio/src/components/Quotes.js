@@ -8,7 +8,7 @@ export default function Quotes() {
         
         <p className="info">
           If you want to know more about me, my projects or just want to say hi,
-          feel free to connect with me on social media or send me an email.
+          feel free to connect with me on social media or send me an email using the contact form.
         </p>
         <div className="media-btn">
         <a
