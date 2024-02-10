@@ -7,7 +7,7 @@ const projects = [
     author: "Team project",
     stack: "Node.js, Express, PostgreSQL, HTML, CSS, JavaScript",
     description:
-      "A user-friendly study platform with a successful frontend and backend integration.",
+      "A user-friendly study platform with a successful frontend and backend integration. Example log in: Marti147 password:123",
     demo: "https://study-buddy-app-zeta.vercel.app/login.html",
     github: "https://github.com/MartiZu/Study-Buddy-app",
     video: "https://www.youtube.com/watch?v=L-WxnATCCro",
