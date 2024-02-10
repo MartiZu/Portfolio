@@ -117,17 +117,17 @@ img {
   }
 }
 
+@import "partials/_projects-section.scss";
 @import "partials/_contact-form.scss";
 @import "partials/_navbar.scss";
 @import "partials/_settings.scss";
 @import "partials/_search-section.scss";
-@import "partials/_projects-section.scss";
 @import "partials/_footer-section.scss";
-@import "partials/_chefs-section.scss";
-@import "partials/_quote-section.scss";
 @import "partials/_improve-section.scss";
 @import "partials/_hero-section.scss";
 @import "partials/_animations.scss";
+
+/* @import "partials/_quote-section.scss"; */
 
 @media screen and (max-width: 1280px) {
   .container {

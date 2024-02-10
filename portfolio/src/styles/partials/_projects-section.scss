@@ -1,20 +1,27 @@
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5em;
   margin-top: 2em;
-  border-radius: 10px;
 }
+.section.projects {
+  display: block;
+}
+
 .projects-card {
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 0 5px 10px var(--shadow-color);
   overflow: hidden;
-  .projects-card-info {
-    padding: 15px;
-    background-color: var(--background-light);
+  text-align: justify;
+  &:hover {
+    box-shadow: 10px 12px 15px var(--shadow-color);
   }
-  .custom-image {
-    z-index: -1;
+  .projects-card-info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.8em 0.8em;
   }
   .img-author {
     height: 80px;
@@ -49,24 +56,24 @@
       text-decoration: underline;
     }
   }
-  .stack{
+  .stack {
     margin-top: 1.5em;
     color: var(--text-light);
     letter-spacing: 1px;
-    font-size: .8em;
+    font-size: 0.8em;
     font-weight: 700;
   }
-  .author{
+  .author {
     margin-top: 1.5em;
     color: var(--text-light);
     letter-spacing: 1px;
-    font-size: .8em;
+    font-size: 0.8em;
     font-weight: 700;
   }
-  .repo{
+  .repo {
     text-decoration: none;
     font-size: 1em;
-    margin-top: .5em;
+    margin-top: 0.5em;
     color: var(--primary-color);
     display: inline-block;
     font-weight: 700;

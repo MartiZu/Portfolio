@@ -1,4 +1,4 @@
-import PreviousSearches from "../components/PreviousSearches";
+import SkillsSearches from "../components/SkillsSearches";
 import ProjectsCard from "../components/ProjectsCard";
 const projects = [
   {
@@ -61,7 +61,7 @@ const projects = [
 export default function Projects() {
   return (
     <div>
-      <PreviousSearches />
+      <SkillsSearches />
       <div className="projects-container">
         {projects.map((project, index) => (
           <ProjectsCard key={index} project={project} />

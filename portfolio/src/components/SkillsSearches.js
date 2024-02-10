@@ -1,4 +1,4 @@
-export default function PreviousSearches() {
+export default function SkillsSearches() {
   const skills = [
     "JavaScript",
     "React",
