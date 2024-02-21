@@ -23,12 +23,16 @@ export default function ContactForm() {
 
   return (
     <form ref={form} onSubmit={sendEmail} className="form">
-      <label htmlFor="user_name">Name</label>
-      <input type="text" name="user_name" />
-      <label htmlFor="user_email">Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea className="text-area" name="message" />
+      <label for="user_name" htmlFor="user_name">
+        Name
+      </label>
+      <input type="text" name="user_name" id="user_name" />
+      <label for="user_email" htmlFor="user_email">
+        Email
+      </label>
+      <input type="email" name="user_email" id="user_email" />
+      <label for="message">Message</label>
+      <textarea className="text-area" name="message" id="message" />
       <input className="btn" type="submit" value="Send" />
     </form>
   );
