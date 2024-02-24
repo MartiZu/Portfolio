@@ -21,7 +21,7 @@ export default function Nav() {
     <>
       <div className="navbar container">
         <Link to="/" className="logo">
-          Martina Zurli<span> || Web Developer</span>
+          Martina Zurli<span> || Junior Developer</span>
         </Link>
         <div className="nav-links">
           {links.map((link) => (
