@@ -56,6 +56,17 @@ const projects = [
     github: "https://github.com/MartiZu/Santa-s_holiday",
     video: "",
   },
+  {
+    title: "Jedi Solver Solver",
+    image: "/img/icons/project.png",
+    author: "Personal project",
+    stack: "React(Vite), SCSS, JavaScript",
+    description:
+      "As whispers of incomplete puzzles and frustrated mutterings echoed through the Jedi Temple, Master Yoda, with his wise and wrinkled brow, decided it was time to call upon a different kind of force.",
+    demo: "https://jedi-sudoku-solver.vercel.app/",
+    github: "https://github.com/MartiZu/Sudoku_solver",
+    video: "",
+  },
 ].sort(() => Math.random() - 0.5); // randomize the order of the array);
 
 export default function Projects() {
