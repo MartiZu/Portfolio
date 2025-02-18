@@ -1,24 +1,7 @@
+import { skillsList } from "./ImproveSkills";
+
 export default function SkillsSearches() {
-  const skills = [
-    "JavaScript",
-    "React",
-    "Next.js",
-    "HTML",
-    "CSS",
-    "SCSS",
-    "Tailwind CSS",
-    "Node.js",
-    "Express",
-    "Java",
-    "PostgreSQL",
-    "Jest",
-    "Vitest",
-    "Cypress",
-    "Playwright",
-    "Deployment",
-    "Git",
-    "TDD",
-  ];
+  const skills = skillsList;
   return (
     <div>
       <div className="cathegory-search">

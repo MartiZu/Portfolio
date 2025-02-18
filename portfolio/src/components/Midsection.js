@@ -15,8 +15,10 @@ export default function Midsection() {
         </p>
         <p className="info about-section">
           I decided to take a leap of faith and follow my heart. Learning to
-          code was something that brought back that spark into me and I am now
-          looking forward to start my career and land my first job.
+          code was something that brought back that spark and passion into me. I
+          am excited about my new career, passionate about all the learning and
+          growing I have achieved so far and looking forward to the next
+          challenges.
         </p>
       </div>
     </div>

@@ -21,7 +21,11 @@ export default function HeroSection() {
         <h1 className="title">Hi, my name is Martina!</h1>
         <p className="info">
           On the 4th of September 23 I started my tech journey with the{" "}
-          <a href="https://www.schoolofcode.co.uk/course/" className="bootcamp" target="_blank">
+          <a
+            href="https://www.schoolofcode.co.uk/course/"
+            className="bootcamp"
+            target="_blank"
+          >
             {" "}
             School of Code bootcamp.{" "}
           </a>
@@ -33,7 +37,8 @@ export default function HeroSection() {
         </p>
         <p className="info">
           This page is for me to display some of the projects I have worked on
-          and tell you a bit more about myself.
+          and tell you a bit more about myself and my journey into tech as a
+          Junior Developer.
         </p>
         <Link to="/about">
           <button className="btn">About me</button>

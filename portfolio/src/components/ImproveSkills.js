@@ -1,27 +1,25 @@
 import { Link } from "react-router-dom";
 
-export default function TechStack() {
-  const list = [
-    "JavaScript",
-    "React",
-    "Next.js",
-    "HTML",
-    "CSS",
-    "SCSS",
-    "Tailwind CSS",
-    "Node.js",
-    "Express",
-    "Java",
-    "PostgreSQL",
-    "Jest",
-    "Vitest",
-    "Cypress",
-    "Playwright",
-    "Deployment",
-    "Git",
-    "TDD"
-  ];
+export const skillsList = [
+  "JavaScript",
+  "React",
+  "Next.js",
+  "CSS/SCSS",
+  "Tailwind CSS",
+  "Node.js",
+  "Express",
+  "Scala",
+  "PostgreSQL",
+  "DynamoDB/S3",
+  "Jest/Vitest",
+  "Cypress",
+  "Playwright",
+  "Mokito",
+  "Datadog",
+  "Jenkins",
+];
 
+export default function TechStack() {
   return (
     <div className="section improve-skills">
       <div className="col img">
