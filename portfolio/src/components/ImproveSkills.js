@@ -17,6 +17,8 @@ export const skillsList = [
   "Mokito",
   "Datadog",
   "Jenkins",
+  "Braze",
+  "Databricks",
 ];
 
 export default function TechStack() {
